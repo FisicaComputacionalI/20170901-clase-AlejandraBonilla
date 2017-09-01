@@ -5,8 +5,8 @@ import pylab as pl
 x = [1, 2, 3, 4, 5]
 # Make an array of y values fro each x value
 y = [1, 4, 9, 16, 25]
-# use pylab to plot x and y as 
-pl.plot(x, y,)
+# use pylab to plot x and y as cyan circle 
+pl.plot(x, y, 'co')
 # show the plot on the screen 
 pl.savefig('temp1.png')
 
